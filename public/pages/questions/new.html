@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title>Grading App</title>
+
+    <!-- Some boilplate codes  -->
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="manifest" href="site.webmanifest" />
+    <meta name="theme-color" content="#fafafa" />
+
+    <link rel="stylesheet" href="../../css/main.css" />
+  </head>
+
+  <body>
+    <!-- content box centered -->
+    <div id="content-box">
+      <div id="page-title">
+        <h1>
+          Add a question
+        </h1>
+      </div>
+
+      <form action="" method="post">
+        <h1 class="topic-name">
+          <!-- topic name (i.e Integration) -->
+          Topic name
+        </h1>
+
+        <div class="input-line">
+          <label for="subtopic">
+            Subtopic Name
+          </label>
+
+          <!-- queried subtopics for selected topic -->
+          <div class="input">
+         
+          <select name="subtopic" class="select">
+            <option value=""> </option>
+          </select>
+        </div>
+      </div>
+
+
+        <div class="input-line">
+          <!-- question itself -->
+          <label for="question">
+            Question
+          </label>
+          <div class="input">
+            <input type="text" name="question" id="" />
+          </div>
+        </div>
+
+        <div class="input-line">
+          <!-- image describing the question -->
+          <label for="image">
+            Image attachement
+          </label>
+          <div class="input">
+
+          <input type="file" name="question-image" id="" />
+        </div>
+      </div>
+
+        <div class="input-line">
+          <!-- question answer -->
+          <label for="answer">
+            Answer
+          </label>
+          <div class="input">
+
+          <input type="text" name="answer" id="" />
+        </div>
+      </div>
+
+        <!-- submit button -->
+        <div class="input-line">
+          <!-- question answer -->
+          <label for="submit">
+          </label>
+          <div class="input">
+            <button type="submit">
+               <p>Add</p> 
+             </button>
+        </div>
+      </div>
+        
+      </form>
+    </div>
+  </body>
+</html>

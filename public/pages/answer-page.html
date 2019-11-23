@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title>Grading App</title>
+
+    <!-- Some boilplate codes  -->
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="manifest" href="site.webmanifest" />
+    <meta name="theme-color" content="#fafafa" />
+
+    <link rel="stylesheet" href="../css/main.css" />
+  </head>
+
+  <body onload="fetchQuestion()">
+    <!-- content box centered -->
+    
+    <div id="content-box">
+      <div id="page-title">
+        <h1>
+          Answer Page
+        </h1>
+      </div>
+
+      <!-- query result box -->
+      <div class="question box">
+        <h1 class="topic-name">
+          Topic:
+          <!-- topic name (i.e Integration) -->
+        </h1>
+
+        <h2 class="subtopic-name">
+          Subtopic:
+          <!-- subtopic name -->
+        </h2>
+
+        <p class="subtopic-description">
+          <!-- subtopic description -->
+          <!-- image is also here -->
+        </p>
+
+        <h2 class="question">
+          Question:
+        </h2>
+
+        <p class="question">
+          <!-- here comes the question itself -->
+        </p>
+
+        <form action="" method="post">
+          <div class="input-line">
+            <!-- question answer -->
+            <label for="answer">
+              Answer
+            </label>
+            <div class="input">
+              <input type="text" name="answer" id="" />
+            </div>
+          </div>
+          <!-- submit button -->
+          <div class="input-line">
+            <!-- question answer -->
+            <label for="submit"> </label>
+            <div class="input">
+              <button type="submit">
+                <p>Submit</p>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script>
+      function fetchQuestion() {
+        const url = "https://grading-stage.herokuapp.com/topics/all";
+
+        fetch(url)
+          .then(resp => resp.json())
+          .then(function(data) {
+            console.log(data);
+          });
+      }
+    </script>
+  </body>
+</html>

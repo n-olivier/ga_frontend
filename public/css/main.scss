@@ -1,0 +1,95 @@
+* {
+  font-family: Red Hat Text;
+  font-style: normal;
+  font-weight: normal;
+  // border: 1px solid black;
+}
+body {
+  #content-box {
+    width: 90vw;
+    margin: auto;
+
+    #page-title {
+      h1 {
+        font-size: 36px;
+        line-height: 48px;
+        text-decoration-line: underline;
+      }
+    }
+    .topic-box {
+      .topic-name {
+        font-size: 32px;
+      }
+
+      .topic-description {
+        font-size: 20px;
+      }
+    }
+
+    .question-box {
+      margin-left: 2.5vw;
+      display: grid;
+      grid-template-columns: 90% 10%;
+
+      .subtopic-name {
+        font-size: 20px;
+      }
+
+      .cbox {
+        margin: auto;
+        display: flex;
+        align-items: center;
+
+        input[type="checkbox"] {
+          margin: auto;
+        }
+      }
+    }
+
+    form {
+      .input-line {
+        display: grid;
+        grid-template-columns: 40vw auto;
+      }
+      label {
+        padding: 10px;
+      }
+
+      .input {
+        display: flex;
+        align-items: center;
+
+        input[type="text"],
+        input[type="file"],
+        .select {
+          height: 20px;
+          width: 20vw;
+        }
+      }
+
+      button {
+        height: 25px;
+        width: 10vw;
+        border: 0px;
+        opacity: 75%;
+        display: flex;
+        align-items: center;
+        p {
+          font-size: 20px;
+          margin: auto;
+        }
+      }
+    }
+
+    .action-link {
+      padding: 10px;
+
+      a {
+        font-size: 25px;
+        line-height: 48px;
+        text-decoration-line: underline;
+        color: #000000;
+      }
+    }
+  }
+}

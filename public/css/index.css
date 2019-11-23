@@ -1,0 +1,60 @@
+body #content {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body #content #wallpaper {
+  width: 60vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #content #wallpaper img {
+  width: 40vw;
+  margin: auto;
+  opacity: 20%;
+}
+
+body #content #login-section {
+  width: 40vw;
+  text-align: center;
+  height: 615px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #content #login-section #login-box {
+  margin: auto;
+}
+
+body #content #login-section #login-box button {
+  height: 50px;
+  width: 10vw;
+  margin: auto;
+  border: 0px;
+  opacity: 75%;
+}
+
+body #content #login-section #login-box button p {
+  line-height: 0px;
+  font-size: 20px;
+}
+
+body #content #login-section #login-box button:hover {
+  opacity: 100%;
+}
+
+body #content #login-section #login-box p {
+  vertical-align: middle;
+}
+/*# sourceMappingURL=index.css.map */

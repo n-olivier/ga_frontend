@@ -1,0 +1,109 @@
+* {
+  font-family: Red Hat Text;
+  font-style: normal;
+  font-weight: normal;
+}
+
+body #content-box {
+  width: 90vw;
+  margin: auto;
+}
+
+body #content-box #page-title h1 {
+  font-size: 36px;
+  line-height: 48px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+body #content-box .topic-box .topic-name {
+  font-size: 32px;
+}
+
+body #content-box .topic-box .topic-description {
+  font-size: 20px;
+}
+
+body #content-box .question-box {
+  margin-left: 2.5vw;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 90% 10%;
+      grid-template-columns: 90% 10%;
+}
+
+body #content-box .question-box .subtopic-name {
+  font-size: 20px;
+}
+
+body #content-box .question-box .cbox {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #content-box .question-box .cbox input[type="checkbox"] {
+  margin: auto;
+}
+
+body #content-box form .input-line {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 40vw auto;
+      grid-template-columns: 40vw auto;
+}
+
+body #content-box form label {
+  padding: 10px;
+}
+
+body #content-box form .input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #content-box form .input input[type="text"],
+body #content-box form .input input[type="file"],
+body #content-box form .input .select {
+  height: 20px;
+  width: 20vw;
+}
+
+body #content-box form button {
+  height: 25px;
+  width: 10vw;
+  border: 0px;
+  opacity: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #content-box form button p {
+  font-size: 20px;
+  margin: auto;
+}
+
+body #content-box .action-link {
+  padding: 10px;
+}
+
+body #content-box .action-link a {
+  font-size: 25px;
+  line-height: 48px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #000000;
+}
+/*# sourceMappingURL=main.css.map */
